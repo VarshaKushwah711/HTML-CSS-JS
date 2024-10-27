@@ -1,0 +1,118 @@
+
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
+    /* background: linear-gradient(45deg, rgba(224, 231, 255, 0.8), rgba(173, 199, 251, 0.8)); */
+    background: rgba(173, 199, 251, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Container{
+
+    background: white;
+    /* background-color: rgb(140, 199, 251); */
+    padding : 40px 30px;
+    border-radius: 20px;
+    box-shadow : 0 5px 20px rgb(42, 42, 42);
+    /* margin-top: 50px; */
+    text-align :center;
+    width: 500px;
+
+}
+
+label{
+    display: block;
+    margin: 10 0 5px;
+    font-weight :600;
+    color : #333;
+}
+
+h1{
+    color : #3e3e3e;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+input[type = "text"]{
+
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border :#494949 solid 1px;
+    border-radius: 10px;
+    transition : border-color 0.3s;
+
+}
+
+input[type = "text"]:focus
+{
+    border-color : #007bff solid 1.5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 15px; 
+}
+
+button{
+
+    width: calc(50% - 5px);
+    /* width: 100%; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* width: calc(100%-20px); */
+    padding:10px;
+    background-color: #007bff;
+    color : #fff;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: backgraound-color 0.3s, transfrom 0.3s;
+
+}
+
+
+
+button:hover{
+
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+input[read-only]{
+    background-color : #e9ecef;
+    /* cursor:not-allowed; */
+}
+
+
+
+@media (max-width: 600px) {
+    .Container {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    input[type="text"], button {
+        font-size: 14px; 
+        padding: 4px; 
+    }
+
+    .button-container {
+        flex-direction: column; 
+        align-items: stretch; 
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+}
