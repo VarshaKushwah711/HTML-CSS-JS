@@ -4,6 +4,13 @@ function swap()
     let a = document.getElementById("A").value;
     let b = document.getElementById("B").value;
 
+
+    if(!a || !b){
+        document.getElementById("result").value = "Please enter values"
+        return;
+    }
+
+
     if (isNaN(a) || isNaN(b)) {
         alert("Please enter valid numbers.");
         return;
