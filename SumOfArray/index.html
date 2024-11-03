@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=w, initial-scale=1.0">
+    <title>find the sum of all elements in an array.</title>
+    <link href = "styles.css" rel = "stylesheet">
+</head>
+<body>
+    <div class = "Container">
+
+        <h1>Sum of Array</h1>
+
+        <label for="values">Enter numbers : </label>
+        <input type="text" id="values" placeholder="Enter numbers separated by commas">
+        <br>
+        <div class = "button-container">
+        <button id="calculateBtn" onclick="sumOfArray()">Calculate Sum</button>
+        <button id = "resetbutton" onclick="resetFields()">Reset</button>
+        </div>
+        <!-- <p id="result"></p> -->
+         <br>
+
+        <label for="result">Sum of array : </label>
+        <input type = "text" id = "result" placeholder="Result" readonly>
+
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
