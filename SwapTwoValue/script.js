@@ -1,4 +1,5 @@
 // document.getElementById('swapbutton').addEventListener('click',checkEvenOdd);
+
 function swap()
 {
     let a = document.getElementById("A").value;
