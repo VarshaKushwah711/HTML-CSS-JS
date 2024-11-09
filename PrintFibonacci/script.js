@@ -12,7 +12,7 @@ function fibonacci()
         return;
     }
 
-    for(let i=0; i<=num; i++)
+    for(let i=0; i<num; i++)
     {
         //document.getElementById("result").value = a;
         arr.push(a);
