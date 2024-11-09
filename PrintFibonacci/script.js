@@ -1,4 +1,4 @@
-function fibonacci(n)
+function fibonacci()
 {
 
     let num = parseInt(document.getElementById("num").value);
