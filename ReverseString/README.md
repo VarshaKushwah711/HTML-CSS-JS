@@ -13,7 +13,7 @@ This is a simple web application that allows users to input a string, reverse it
 - **CSS3** for styling 🎨
 - **JavaScript** for functionality ⚙️
 
-## Screenshot 📸
+## Screenshots 📸
 
 
 ![Screenshot 2024-11-05 200101](https://github.com/user-attachments/assets/0f967087-4652-4288-9ad4-76519e6e048b)
@@ -23,6 +23,7 @@ This is a simple web application that allows users to input a string, reverse it
 
 
 <!--## How to Run: 🏃‍♂️
+
 
 1. **Clone the repository**:
    ```bash
